@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
         <div className="top">
-            <div className="items">
+            <div className="item">
                 <h1>Categories</h1>
                 <span>Women</span>
                 <span>Men</span>
@@ -13,7 +13,7 @@ const Footer = () => {
                 <span>Accessories</span>
                 <span>New Arrivals</span>
             </div>
-            <div className="items">
+            <div className="item">
                 <h1>Links</h1>
                 <span>FAQ</span>
                 <span>Pages</span>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <span>Compare</span>
                 <span>Cookies</span>
             </div>
-            <div className="items">
+            <div className="item">
                 <h1>About</h1>
                 <span>
                     This is a website created by Astha to make a new e-commerce platform for aesthetic fashion.
@@ -29,7 +29,7 @@ const Footer = () => {
                     with wider accessibility.
                 </span>
             </div>
-            <div className="items">
+            <div className="item">
                 <h1>Contact</h1>
                 <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     Aliquam at quibusdam quas! Labore unde accusantium sed at similique minima 
