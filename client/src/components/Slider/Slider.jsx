@@ -13,10 +13,10 @@ const Slider = () => {
   ];
 
   const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? 2 : (prev) => prev - 1);
+    setCurrentSlide(currentSlide === 0 ? data.length-1 : (prev) => prev - 1);
   };
   const nextSlide = () => {
-    setCurrentSlide(currentSlide === 2 ? 0 : (prev) => prev + 1);
+    setCurrentSlide(currentSlide === data.length-1 ? 0 : (prev) => prev + 1);
   };
 
   return (
