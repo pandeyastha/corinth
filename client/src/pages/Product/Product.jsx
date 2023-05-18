@@ -5,6 +5,7 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import BalanceIcon from "@mui/icons-material/Balance";
 
 
+
 const Product = () => {
   const [selectedImage, setSelectedImage] =useState(0); 
   const [quantity,setQuantity] =useState(1);
@@ -32,7 +33,7 @@ const Product = () => {
     </div>
     <div className="right">
         <h1>Title</h1>
-        <span>$180</span>
+        <span className='price'>$180</span>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
@@ -46,7 +47,7 @@ const Product = () => {
         </button>
         <div className="links">
               <div className="item">
-                <FavoriteBorderIcon /> ADD TO WISH LIST
+               <FavoriteBorderIcon /> ADD TO WISH LIST
               </div>
               <div className="item">
                 <BalanceIcon /> ADD TO COMPARE
@@ -66,6 +67,7 @@ const Product = () => {
               <span>FAQ</span>
             </div>
     </div>
+    
    </div>
   )
 }
